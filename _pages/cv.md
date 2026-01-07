@@ -34,6 +34,31 @@ Experience
   * Designed and maintained an automated grading system for coding assignments, enabling scalable and consistent evaluation of student submissions.
   * Held weekly office hours and provided technical guidance on computer vision algorithms, deep learning models, and course projects.
   * Contributed to midterm exam design and grading, and managed overall course grading logistics.
+    <br>
+    <summary style="cursor: pointer; color: #52adc8; font-weight: bold;">
+      <i class="fas fa-quote-left"></i> Selected Student Feedback <i class="fas fa-quote-right"></i>
+    </summary>
+    <div style="background: #f9f9f9; padding: 10px; border-left: 3px solid #52adc8; margin-top: 5px; font-size: 0.9em; font-style: italic;">
+      <p style="margin: 0 0 8px 0;">
+      "Ben's patience during office hours and detailed guidance on assignments helped me understand not just the 'how,' but also the 'why' behind each method."
+      </p>
+      <p style="margin: 0 0 8px 0;">
+      "Ben should be acknowledged by the department for his commitment to his students' learning, and I would like to have him as my TA for another course!"
+      </p>
+      <p style="margin: 0;">
+      "Tzu-Hsein Lee, thank you for the fact you were a nice person to talk to."
+      </p>
+    </div>
+    
+    <details>
+      <summary style="cursor: pointer; color: #555; font-weight: bold;">
+        View Full Student Feedback (Official SRT Results):
+      </summary>
+
+      <div style="margin-top: 10px;">
+        <img src="/images/TA_Feedback_2025Fall_CSCI5561.png" alt="Screenshot of TA Feedback" style="width: 100%; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      </div>
+    </details>
 
 * **Intern**, Industrial Technology Research Institute \| *11.2022 - 02.2023*
   * Established an autonomous grinding line for irregularly shaped water faucets by independently designing force-adaptive trajectories using dual-robot arms and a force feedback sensor.
