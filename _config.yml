@@ -9,8 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "I'm Tzu-Hsien. Nice to meet you!"
+title                    : "Tzu-Hsien Lee"
 title_separator          : "-"
+masthead_greeting        : "I'm Tzu-Hsien. Nice to meet you!"
 name                     : &name "Tzu-Hsien Lee"
 description              : &description "Tzu-Hsien Lee's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://bentzuhsien.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
@@ -26,7 +27,7 @@ author:
   avatar           : "profile.png"
   name             : "Tzu-Hsien (Ben) Lee"
   pronouns         : # example: "she/her"  
-  bio              : "Master Student in Robotics"
+  bio              : "Master's Student in Robotics"
   location         : "Minneapolis, MN"
   employer         : "University of Minnesota"
   uri              : # URL
@@ -34,11 +35,11 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/a/lee_t_2.html"
   googlescholar    : "https://scholar.google.com/citations?user=tJCtoEwAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0009-0007-6178-205X"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL

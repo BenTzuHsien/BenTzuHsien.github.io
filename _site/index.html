@@ -19,7 +19,7 @@
 
 
 
-<title>Welcome ! - I’m Tzu-Hsien. Nice to meet you!</title>
+<title>Tzu-Hsien Lee</title>
 
 
 
@@ -65,8 +65,8 @@
 
 <!-- Open Graph protocol data (https://ogp.me/), used by social media -->
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="I'm Tzu-Hsien. Nice to meet you!"> 
-<meta property="og:title" content="Welcome !">
+<meta property="og:site_name" content="Tzu-Hsien Lee"> 
+<meta property="og:title" content="Tzu-Hsien Lee">
 
 
 
@@ -78,7 +78,7 @@
 
 <!-- end Open Graph protocol -->
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="I'm Tzu-Hsien. Nice to meet you! Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tzu-Hsien Lee Feed">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -128,7 +128,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV / Resume</a></li>
           
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
@@ -167,7 +167,7 @@
   <div class="author__content">
     <h3 class="author__name">Tzu-Hsien (Ben) Lee</h3>
     
-    <p class="author__bio">Master Student in Robotics</p>
+    <p class="author__bio">Master's Student in Robotics</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -187,12 +187,16 @@
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       
+      
+        <li><a href="https://arxiv.org/a/lee_t_2.html"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
             
       
         <li><a href="https://scholar.google.com/citations?user=tJCtoEwAAAAJ&hl=en"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       
             
       
+      
+        <li><a href="https://orcid.org/0009-0007-6178-205X"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       
                               
       
@@ -248,7 +252,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Welcome !">
+    
     
     
     
@@ -256,8 +260,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Welcome !
-</h1>
+          
           
         
         
@@ -266,28 +269,70 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>I am a master student in Robotics at the University of Minnesota, advised by <a href="https://karthikdesingh.com/">Prof. Karthik Desingh</a> at the <a href="https://rpm-lab.github.io/">Robotics Perception and Manipulation Lab</a>. My long-term research goal is to develop learning-based <strong>mobile manipulation</strong> policies that enable robots to perform everyday tasks in human environments. To achieve this goal, my current research directions include:</p>
+        <h1 id="i-build-learning-based-systems-for-real-world-robot-manipulation-from-visual-observations-and-minimal-demonstrations">I build learning-based systems for real-world robot manipulation<br /> from visual observations and minimal demonstrations.</h1>
+<p><br />
+I am an M.S. student in Robotics at the University of Minnesota, advised by <a href="https://karthikdesingh.com/">Prof. Karthik Desingh</a> at the <a href="https://rpm-lab.github.io/">Robotics Perception and Manipulation Lab</a>.</p>
+
+<p>My long-term research goal is to develop <strong>generalizable robot manipulation systems</strong> that perform everyday tasks under severe <strong>data constraints</strong>. I am particularly interested in how unifying <strong>vision, representation, and action</strong> can push manipulation beyond highly structured and stationary settings.</p>
+
+<h3 id="research-directions">Research Directions</h3>
 
 <ul>
   <li>
-    <p><strong>Last-meter navigation</strong><br />
-Bridging the gap between navigation and manipulation by positioning robots precisely enough for downstream manipulation. My work focuses on learning navigation policies that enable manipulation policies to operate beyond stationary settings.</p>
+    <p><strong>Goal-conditioned positioning for manipulation</strong><br />
+Enabling robot manipulation beyond stationary constraints. My work focuses on learning goal-conditioned policies that bring robots into precise, manipulation-ready configurations using visual observations.</p>
   </li>
   <li>
-    <p><strong>Data-efficient imitation learning for manipulation</strong><br />
-Improving the sample efficiency and generalization of learning-based manipulation policies. I study how manipulation policies can be trained with minimal supervision, such as a small number of demonstrations, while still generalizing robustly to unseen objects and environments.</p>
+    <p><strong>Data-efficient imitation learning</strong><br />
+I investigate how manipulation policies can be trained with minimal demonstrations while still generalizing robustly to unseen objects and environments. My work focuses on learning visual policies that operate under limited supervision and real-world variability.</p>
   </li>
 </ul>
 
-<h3 id="background-and-experience">Background and Experience</h3>
+<h3 id="what-i-build">What I Build</h3>
 
-<p>I completed my undergraduate studies in Mechanical Engineering, which provided a strong foundation in the physical principles underlying robotic systems, including <strong>dynamics, control, and state estimation</strong>. During this time, I served as the software lead of an Autonomous Underwater Vehicle (AUV) student team, where I was responsible for the design and integration of the software stack spanning perception, estimation, control, and navigation. This role involved extensive work with <strong>embedded systems</strong> and low-level programming, and gave me hands-on experience deploying autonomous robotic systems in real-world operating conditions rather than purely simulated settings.</p>
+<ul>
+  <li>
+    <p><strong>Real-world data collection pipelines</strong><br />
+Hardware-integrated systems for capturing synchronized multi-view RGB demonstrations on physical robots (Boston Dynamics Spot).</p>
+  </li>
+  <li>
+    <p><strong>Goal-conditioned learning policies</strong><br />
+Imitation learning systems that map visual observations and task specifications to precise, manipulation-ready positioning actions.</p>
+  </li>
+  <li>
+    <p><strong>Perception-to-action integration</strong><br />
+Pipelines that combine modern vision models (e.g., DINOv2) with closed-loop control for robust interaction in unstructured environments.</p>
+  </li>
+  <li>
+    <p><strong>Research infrastructure for robot learning</strong><br />
+Tools and deployment pipelines (e.g., <a href="https://github.com/BenTzuHsien/SpotStack">SpotStack</a>) that accelerate experimentation and bridge training with real-world deployment.
+<!-- Simulation-to-real experimentation pipelines (Isaac Sim) and deployment tools (e.g., [SpotStack](https://github.com/BenTzuHsien/SpotStack)) for scalable experimentation on real robots. --></p>
+  </li>
+</ul>
 
-<p>In my master’s studies in Robotics, I shifted my focus toward learning-based robotic systems. I initially concentrated on robot perception, particularly vision, through advanced coursework in Robot Vision and Computer Vision, where I implemented projects on <strong>visual servoing</strong> and <strong>monocular visual SLAM</strong>. Building on this perception foundation, my current research focuses on learning-based mobile manipulation, including developing mobility policies that enable manipulation beyond stationary settings and one-shot imitation learning policies for eye-in-hand robot configurations. Through this work, I aim to tightly integrate perception, navigation, and manipulation into unified policies that generalize under limited supervision and real-world uncertainty.</p>
+<details>
+  <summary style="cursor: pointer; font-size: 0.95em; font-weight: 600;">
+    Background and Experience
+  </summary>
+
+  <div style="margin-top: 12px;">
+
+<p>
+I completed my undergraduate studies in Mechanical Engineering, which provided a strong foundation in the physical principles underlying robotic systems, including <b>dynamics, control, and state estimation</b>. During this time, I served as the software lead of an Autonomous Underwater Vehicle (AUV) student team, where I was responsible for the design and integration of the software stack spanning perception, estimation, control, and navigation. This role involved extensive work with <b>embedded systems</b> and low-level programming, and gave me hands-on experience deploying autonomous robotic systems in real-world operating conditions rather than purely simulated settings.
+</p>
+
+<p>
+In my master’s studies in Robotics, I shifted my focus toward learning-based robotic systems. I initially concentrated on robot perception, particularly vision, through advanced coursework in Robot Vision and Computer Vision, where I implemented projects on <b>visual servoing</b> and <b>monocular visual SLAM</b>. Building on this perception foundation, my current research explores learning-based manipulation and robot positioning, including developing mobility policies that enable manipulation beyond stationary settings, as well as one-shot imitation learning policies for eye-in-hand robot configurations. Through these works, I am interested in tightly integrating perception, representation, and action to enable robots to perform complex tasks in real-world environments under limited demonstrations and visual-only observations.
+</p>
+
+  </div>
+</details>
 
 <h2 id="contact-me">Contact Me</h2>
 
-<p>Please feel free to reach out if you are interested in my work or would like to discuss potential research directions. I am always happy to chat about research ideas and collaborations that push the boundaries of robotics~</p>
+<p>I am graduating in Spring 2026 and am open to <strong>PhD opportunities</strong> and <strong>research roles</strong> in robot learning, manipulation, and real-world robotic systems.</p>
+
+<p>Please feel free to reach out if you are interested in my work or would like to discuss potential research directions. I am always happy to chat about research ideas and collaborations that push the boundaries of robotics!</p>
 
 
         
@@ -357,7 +402,7 @@ Improving the sample efficiency and generalization of learning-based manipulatio
 
 <div class="page__footer-copyright">
   &copy; 2026 Tzu-Hsien Lee, Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-01-07
+  Site last updated 2026-03-31
 </div>
 
       </footer>
