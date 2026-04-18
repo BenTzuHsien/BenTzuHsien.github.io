@@ -137,8 +137,8 @@ Experience
       </div>
     </details>
 
-* **Intern**, Industrial Technology Research Institute \| *11.2022 - 02.2023*
-  * Established an autonomous grinding production line for irregularly shaped water faucets by designing force-adaptive trajectories using dual-robot arms and a force feedback sensor.
+* **Robotics Intern**, Industrial Technology Research Institute \| *11.2022 - 02.2023*
+  * Established an autonomous grinding production line for irregularly shaped water faucets by designing force-adaptive trajectories using a robot arm and a force feedback sensor.
   * Improved on-site calibration efficiency by designing a coordinate transformation algorithm for adaptive trajectory tuning.
 
 * **Software Lead**, NYCU Autonomous Underwater Vehicle (AUV) Team \| *02.2021 - 09.2022*
