@@ -32,7 +32,7 @@ Publications
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
-          <a href="https://rpm-lab-umn.github.io/category-level-last-meter-nav/" rel="permalink">Learning Category-level Last-meter Navigation from RGB Demonstrations of a Single-Instance</a>
+          <a href="https://rpm-lab-umn.github.io/category-level-last-meter-nav/" rel="permalink">Learning Category-level Last-meter Navigation from RGB Demonstrations of a Single-instance</a>
         </h3>
         <p class="archive__item-excerpt" itemprop="description">
           <strong>Tzu-Hsien Lee</strong>, Fidan Mahmudova, Karthik Desingh. 
