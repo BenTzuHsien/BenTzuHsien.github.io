@@ -103,7 +103,7 @@ Experience
   * Course: *CSCI 5551 Introduction to Intelligent Robotic Systems*
   * Designed and engineered a 10-stage real-robot manipulation curriculum by integrating a 6-DoF Lite6 robotic arm and a ZED 2i stereo camera for perception-to-manipulation learning.
   * Enabled rapid development of vision-based manipulation pipelines by building reusable software infrastructure, including AprilTag-based camera-to-robot calibration, grasp primitives, and camera wrapper APIs.
-  * Demonstrated reference solutions by implementing zero-shot target selection and 6D object pose estimation using SAM-based segmentation and oriented bounding box fitting on point clouds.
+  * Implemented reference solutions for zero-shot target selection and 6D object pose estimation using SAM-based segmentation and oriented bounding box fitting on point clouds.
   * Established progressive checkpoints from single-object grasping to multi-object sequential stacking with increasing perception difficulty.
   * Improved usability and reproducibility by authoring comprehensive 20-page technical documentation and starter templates.
 
