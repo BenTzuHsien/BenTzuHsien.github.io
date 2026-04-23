@@ -32,19 +32,19 @@ Publications
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
-          <a href="https://rpm-lab-umn.github.io/category-level-last-meter-nav/" rel="permalink">Learning Category-level Last-meter Navigation from RGB Demonstrations of a Single Instance</a>
+          <a href="https://rpm-lab-umn.github.io/category-level-last-meter-nav/" rel="permalink">Learning Category-level Last-meter Navigation from RGB Demonstrations of a Single-Instance</a>
         </h3>
         <p class="archive__item-excerpt" itemprop="description">
           <strong>Tzu-Hsien Lee</strong>, Fidan Mahmudova, Karthik Desingh. 
           <br>
-          <i>arXiv preprint arXiv:2512.11173</i>, 2025.
+          <i>Under revision, IEEE Robotics and Automation Letters (RA-L)</i>, 2025.
         </p>
       </article>
     </div>
   </li>
 </ul>
   
-Presentation
+Presentations
 ======
 <ul>
   <li>
@@ -93,7 +93,8 @@ Experience
 * **Graduate Researcher**, University of Minnesota \| *09.2024 - Present*
   * Advisor: [Prof. Karthik Desingh](https://karthikdesingh.com/)
   * [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/)
-  * Achieved category-level last-meter navigation for mobile manipulation by leading the design and implementation of a goal-conditioned policy and real-world data collection pipeline using multi-view RGB observations on Boston Dynamics Spot, resulting in an [RA-L submission](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
+  * Achieved category-level last-meter navigation for mobile manipulation by leading the design and implementation of a goal-conditioned policy and real-world data collection pipeline using multi-view RGB observations on Boston Dynamics Spot, reaching 96.94% success on unseen object instances and resulting in an [RA-L submission](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
+  * Designed the policy architecture with a frozen DINOv2 vision encoder, language-driven SAM2 segmentation, and a score-matrix decoder that captures spatial correlation between current and goal observations for action prediction.
   * Exploring one-shot generalization for eye-in-hand manipulation by studying in-context imitation learning from a single demonstration using wrist-mounted visual observations.
   * Enabled spatially-aware navigation and downstream manipulation by building [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) using vision foundation models on Boston Dynamics Spot.
   * Accelerated real-world robot learning research by designing and implementing [SpotStack](https://github.com/BenTzuHsien/SpotStack), a modular software library for perception integration, data collection, and policy deployment on Boston Dynamics Spot.
@@ -142,12 +143,12 @@ Experience
   * Improved on-site calibration efficiency by designing a coordinate transformation algorithm for adaptive trajectory tuning.
 
 * **Software Lead**, NYCU Autonomous Underwater Vehicle (AUV) Team \| *02.2021 - 09.2022*
-  * Spearheaded the design and implementation of the software architecture, control system, and navigation.
+  * Spearheaded the design and implementation of the software architecture, control system, and navigation, winning Silver Medal at the 2021 Intelligent Innovation Contest and qualifying for SAUVC 2022 (93 teams, 19 countries).
   * Established a modular high-level/low-level robotics system by using an embedded system (STM32) for low-level attitude and motion control, and deploying ROS on Raspberry Pi and Jetson Nano for task planning and navigation.
   * Reduced high-frequency noise in attitude estimation by 10% through implementing a gradient descent-based Madgwick filter on embedded hardware.
   * Developed a real-time obstacle-aware navigation system by employing A* algorithm and sonar-based localization.
 
 Leadership
 ======
-* **Appointed Treasurer**, NYCU Student Association \| *01/2021 - 09/2021*
+* **Appointed Treasurer**, NYCU Student Association \| *01.2021 - 09.2021*
   * Allocated and managed \$30,000 budget, approved and recorded all financial transactions, and provided monthly financial reports to the Student Council.
