@@ -93,13 +93,13 @@ Experience
 * **Graduate Researcher**, University of Minnesota \| *09.2024 - Present*
   * Advisor: [Prof. Karthik Desingh](https://karthikdesingh.com/)
   * [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/)
-  * Achieved category-level last-meter navigation for mobile manipulation by leading the design and implementation of a goal-conditioned policy and real-world data collection pipeline using multi-view RGB observations on Boston Dynamics Spot, reaching 96.94% success on unseen object instances and resulting in an [RA-L submission](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
+  * Led the design and deployment of a goal-conditioned imitation learning policy on Boston Dynamics Spot for category-level mobile manipulation positioning, reaching 96.94% success on unseen object instances from multi-view RGB, resulting in an [RA-L submission](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
   * Designed the policy architecture with a frozen DINOv2 vision encoder, language-driven SAM2 segmentation, and a score-matrix decoder that captures spatial correlation between current and goal observations for action prediction.
-  * Exploring one-shot generalization for eye-in-hand manipulation by studying in-context imitation learning from a single demonstration using wrist-mounted visual observations.
-  * Enabled spatially-aware navigation and downstream manipulation by building [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) using vision foundation models on Boston Dynamics Spot.
   * Accelerated real-world robot learning research by designing and implementing [SpotStack](https://github.com/BenTzuHsien/SpotStack), a modular software library for perception integration, data collection, and policy deployment on Boston Dynamics Spot.
+  * Built [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) with vision foundation models for spatially-aware navigation and downstream manipulation on Boston Dynamics Spot.
+  * Exploring one-shot generalization for eye-in-hand manipulation by studying in-context imitation learning from a single demonstration using wrist-mounted visual observations.
 
-* **Robotics Course Developer**, University of Minnesota \| *01.2026 - Present*
+* **Robotics Course Developer**, University of Minnesota \| *01.2026 - 05.2026*
   * Course: *CSCI 5551 Introduction to Intelligent Robotic Systems*
   * Designed and engineered a 10-stage real-robot manipulation curriculum by integrating a 6-DoF Lite6 robotic arm and a ZED 2i stereo camera for perception-to-manipulation learning.
   * Enabled rapid development of vision-based manipulation pipelines by building reusable software infrastructure, including AprilTag-based camera-to-robot calibration, grasp primitives, and camera wrapper APIs.
@@ -124,7 +124,7 @@ Experience
       "Ben should be acknowledged by the department for his commitment to his students' learning, and I would like to have him as my TA for another course!"
       </p>
       <p style="margin: 0;">
-      "Tzu-Hsein Lee, thank you for the fact you were a nice person to talk to."
+      "Tzu-Hsien Lee, thank you for the fact you were a nice person to talk to."
       </p>
     </div>
     
@@ -140,7 +140,7 @@ Experience
 
 * **Robotics Intern**, Industrial Technology Research Institute \| *11.2022 - 02.2023*
   * Established an autonomous grinding production line for irregularly shaped water faucets by designing force-adaptive trajectories using a robot arm and a force feedback sensor.
-  * Improved on-site calibration efficiency by designing a coordinate transformation algorithm for adaptive trajectory tuning.
+  * Improved on-site calibration efficiency by developing a coordinate transformation algorithm for adaptive trajectory tuning.
 
 * **Software Lead**, NYCU Autonomous Underwater Vehicle (AUV) Team \| *02.2021 - 09.2022*
   * Spearheaded the design and implementation of the software architecture, control system, and navigation, winning Silver Medal at the 2021 Intelligent Innovation Contest and qualifying for SAUVC 2022 (93 teams, 19 countries).
