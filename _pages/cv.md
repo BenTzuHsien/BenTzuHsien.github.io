@@ -37,7 +37,7 @@ Publications
         <p class="archive__item-excerpt" itemprop="description">
           <strong>Tzu-Hsien Lee</strong>, Fidan Mahmudova, Karthik Desingh. 
           <br>
-          <i>Under revision, IEEE Robotics and Automation Letters (RA-L)</i>, 2025.
+          <i>Accepted, IEEE Robotics and Automation Letters (RA-L)</i>, 2026.
         </p>
       </article>
     </div>
@@ -93,7 +93,7 @@ Experience
 * **Graduate Researcher**, University of Minnesota \| *09.2024 - Present*
   * Advisor: [Prof. Karthik Desingh](https://karthikdesingh.com/)
   * [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/)
-  * Led the design and deployment of a goal-conditioned imitation learning policy on Boston Dynamics Spot for category-level mobile manipulation positioning, reaching 96.94% success on unseen object instances from multi-view RGB, resulting in an [RA-L submission](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
+  * Led the design and deployment of a goal-conditioned imitation learning policy on Boston Dynamics Spot for category-level mobile manipulation positioning, reaching 96.94% success on unseen object instances from multi-view RGB, resulting in an [RA-L paper (accepted, 2026)](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
   * Designed the policy architecture with a frozen DINOv2 vision encoder, language-driven SAM2 segmentation, and a score-matrix decoder that captures spatial correlation between current and goal observations for action prediction.
   * Accelerated real-world robot learning research by designing and implementing [SpotStack](https://github.com/BenTzuHsien/SpotStack), a modular software library for perception integration, data collection, and policy deployment on Boston Dynamics Spot.
   * Built [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) with vision-language foundation models for spatially-aware navigation and downstream manipulation on Boston Dynamics Spot.
