@@ -48,13 +48,15 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: var(--global-text-color-light) !important;
-    border: 1px solid var(--global-border-color) !important; /* override*/
-    background-color: var(--global-bg-color);
+    color: var(--global-bg-color) !important;
+    border: 1px solid var(--global-text-color) !important; /* override*/
+    background-color: var(--global-text-color);          /* fill = main text color */
+    transition: background-color 0.15s ease, color 0.15s ease;
 
     &:hover {
-      color: #fff !important;
-      border-color: var(--global-text-color-light);
+      color: var(--global-text-color) !important;        /* hover empties the fill */
+      background-color: var(--global-bg-color);
+      border-color: var(--global-text-color);
     }
   }
 

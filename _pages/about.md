@@ -11,6 +11,11 @@ redirect_from:
 <br>
 I am an M.S. student in Robotics at the University of Minnesota, advised by [Prof. Karthik Desingh](https://karthikdesingh.com/) at the [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/).
 
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin: 1.2rem 0;">
+  <a href="/files/CV.pdf" class="btn btn--inverse"><i class="fas fa-download" aria-hidden="true" style="margin-right: 6px;"></i>Download CV</a>
+  <a href="/files/Resume.pdf" class="btn btn--inverse"><i class="fas fa-download" aria-hidden="true" style="margin-right: 6px;"></i>Download Resume</a>
+</div>
+
 My long-term research goal is to develop **generalizable robot manipulation systems** that perform everyday tasks under severe **data constraints**. I am particularly interested in how unifying **vision, representation, and action** can push manipulation beyond highly structured and stationary settings.
 
 ### Research Directions
@@ -56,6 +61,6 @@ In my master’s studies in Robotics, I shifted my focus toward learning-based r
 
 ## Contact Me
 
-I am graduating in Spring 2026 and am open to **PhD opportunities** and **research roles** in robot learning, manipulation, and real-world robotic systems.
+I am graduating in August 2026 and am open to **PhD opportunities** and **research roles** in robot learning, manipulation, and real-world robotic systems.
 
 Please feel free to reach out if you are interested in my work or would like to discuss potential research directions. I am always happy to chat about research ideas and collaborations that push the boundaries of robotics!

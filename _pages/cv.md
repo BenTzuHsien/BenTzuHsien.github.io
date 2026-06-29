@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <div style="display: flex; gap: 20px; margin-top: 20px; margin-bottom: 20px;">
-  <a href="/files/CV.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="/files/Resume.pdf" class="btn btn--primary">Download Resume as PDF</a>
+  <a href="/files/CV.pdf" class="btn btn--inverse"><i class="fas fa-download" aria-hidden="true" style="margin-right: 6px;"></i>Download CV as PDF</a>
+  <a href="/files/Resume.pdf" class="btn btn--inverse"><i class="fas fa-download" aria-hidden="true" style="margin-right: 6px;"></i>Download Resume as PDF</a>
 </div>
 
 Education
@@ -37,7 +37,7 @@ Publications
         <p class="archive__item-excerpt" itemprop="description">
           <strong>Tzu-Hsien Lee</strong>, Fidan Mahmudova, Karthik Desingh. 
           <br>
-          <i>Accepted, IEEE Robotics and Automation Letters (RA-L)</i>, 2026.
+          <i>IEEE Robotics and Automation Letters (RA-L)</i>, 2026. doi: <a href="https://doi.org/10.1109/LRA.2026.3707352" rel="permalink">10.1109/LRA.2026.3707352</a>
         </p>
       </article>
     </div>
@@ -93,19 +93,18 @@ Experience
 * **Graduate Researcher**, University of Minnesota \| *09.2024 - Present*
   * Advisor: [Prof. Karthik Desingh](https://karthikdesingh.com/)
   * [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/)
-  * Led the design and deployment of a goal-conditioned imitation learning policy on Boston Dynamics Spot for category-level mobile manipulation positioning, reaching 89.42% success on unseen object instances from multi-view RGB, resulting in an [RA-L paper (accepted, 2026)](https://rpm-lab-umn.github.io/category-level-last-meter-nav/).
+  * First-authored [RA-L paper (2026)](https://rpm-lab-umn.github.io/category-level-last-meter-nav/) on category-level last-meter navigation for mobile manipulation, achieving 89.42% success on unseen instances by training goal-conditioned imitation learning policies on multi-view RGB demonstrations from a single object instance, generalizing across the entire category.
   * Designed the policy architecture with a frozen DINOv2 vision encoder, language-driven SAM2 segmentation, and a score-matrix decoder that captures spatial correlation between current and goal observations for action prediction.
+  * Engineered an automated data collection pipeline using AprilTag-based localization to generate expert trajectories, eliminating manual teleoperation for behavior cloning.
   * Accelerated real-world robot learning research by designing and implementing [SpotStack](https://github.com/BenTzuHsien/SpotStack), a modular software library for perception integration, data collection, and policy deployment on Boston Dynamics Spot.
-  * Built [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) with vision-language foundation models for spatially-aware navigation and downstream manipulation on Boston Dynamics Spot.
-  * Exploring one-shot generalization for eye-in-hand manipulation by studying in-context imitation learning from a single demonstration using wrist-mounted visual observations.
+  * Built [semantic topological mapping pipelines](https://github.com/BenTzuHsien/sentmap-implementation) with vision-language foundation models for semantic-aware navigation and downstream manipulation on Boston Dynamics Spot.
 
 * **Robotics Course Developer**, University of Minnesota \| *01.2026 - 05.2026*
   * Course: *CSCI 5551 Introduction to Intelligent Robotic Systems*
-  * Designed and engineered a 10-stage real-robot manipulation curriculum by integrating a 6-DoF Lite6 robotic arm and a ZED 2i stereo camera for perception-to-manipulation learning.
+  * Designed and engineered a 10-stage real-robot manipulation curriculum on a 6-DoF Lite6 arm and ZED 2i stereo camera, covering arm kinematics, frame transforms, and perception-to-manipulation learning.
   * Enabled rapid development of vision-based manipulation pipelines by building reusable software infrastructure, including AprilTag-based camera-to-robot calibration, grasp primitives, and camera wrapper APIs.
   * Implemented reference solutions for zero-shot target selection and 6D object pose estimation using SAM-based segmentation and oriented bounding box fitting on point clouds.
-  * Established progressive checkpoints from single-object grasping to multi-object sequential stacking with increasing perception difficulty.
-  * Improved usability and reproducibility by authoring comprehensive 20-page technical documentation and starter templates.
+  * Improved usability and reproducibility by authoring comprehensive 20-page [technical documentation](/files/experiences/CSCI5551_Robot_Challenge.pdf) and [starter templates](https://github.com/BenTzuHsien/robot-manipulation-kit).
 
 * **Teaching Assistant**, University of Minnesota \| *09.2025 - 01.2026*
   * Course: *CSCI 5561 Computer Vision*
