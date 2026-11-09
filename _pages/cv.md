@@ -14,7 +14,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in Robotics, University of Minnesota, 2026 (expected)
+* M.S. in Robotics, University of Minnesota, 2026
 * B.S. in Mechanical Engineering, National Yang Ming Chiao Tung University, 2022
 
 Skills
@@ -22,8 +22,8 @@ Skills
 * **Robot Learning:** Data-Efficient Imitation Learning, Vision-Based Manipulation, Robot Perception
 * **Robotics Engineering:** SLAM, Motion Planning, State Estimation, Embedded Systems
 * **Programming Languages:** Python, C++, C, JavaScript
-* **Software & Tools:** PyTorch, ROS, Gazebo, OpenCV, Qt, Git, Docker, SolidWorks
-* **Robotics Platforms & Systems:** Boston Dynamics Spot, FANUC robots, STM32, Raspberry Pi, Jetson Nano
+* **Software & Tools:** PyTorch, ROS 1/2, TensorRT, ONNX, Gazebo, OpenCV, Qt, Git, Docker, SolidWorks
+* **Robotics Platforms & Systems:** Boston Dynamics Spot, NVIDIA Jetson Thor, STM32, Raspberry Pi, FANUC robots
 
 Publications
 ======
@@ -90,7 +90,12 @@ Presentations
 
 Experience
 ======
-* **Graduate Researcher**, University of Minnesota \| *09.2024 - Present*
+* **Robotics Software Engineering Intern**, [AgRobotics](https://agrobotics.com/) \| *10.2026 - Present*
+  * Working on perception and VLA training data for a dual-arm strawberry harvesting robot.
+  * Improved strawberry detection recall by 145%, tracing the bottleneck to label noise rather than model capacity and building a VLM auto-labeling pipeline to regenerate the training set.
+  * Deployed the detector on NVIDIA Jetson Thor as an ONNX model integrated with the ZED stereo camera ROS 2 pipeline, meeting the real-time budget required for in-furrow operation.
+
+* **Graduate Researcher**, University of Minnesota \| *09.2024 - 08.2026*
   * Advisor: [Prof. Karthik Desingh](https://karthikdesingh.com/)
   * [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/)
   * First-authored [RA-L paper (2026)](https://rpm-lab-umn.github.io/category-level-last-meter-nav/) on category-level last-meter navigation for mobile manipulation, achieving 89.42% success on unseen instances by training goal-conditioned imitation learning policies on multi-view RGB demonstrations from a single object instance, generalizing across the entire category.
@@ -146,6 +151,10 @@ Experience
   * Established a modular high-level/low-level robotics system by using an embedded system (STM32) for low-level attitude and motion control, and deploying ROS on Raspberry Pi and Jetson Nano for task planning and navigation.
   * Reduced high-frequency noise in attitude estimation by 10% through implementing a gradient descent-based Madgwick filter on embedded hardware.
   * Developed a real-time obstacle-aware navigation system by employing A* algorithm and sonar-based localization.
+
+Professional Service
+======
+* **Reviewer**, *IEEE Robotics and Automation Letters (RA-L)* \| *2026*
 
 Leadership
 ======

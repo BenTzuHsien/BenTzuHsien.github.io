@@ -9,7 +9,7 @@ redirect_from:
 
 # I build learning-based systems for real-world robot manipulation<br> from visual observations and minimal demonstrations.
 <br>
-I am an M.S. student in Robotics at the University of Minnesota, advised by [Prof. Karthik Desingh](https://karthikdesingh.com/) at the [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/).
+I am a Robotics Software Engineering Intern at [AgRobotics](https://agrobotics.com/), working on perception and VLA training data for a dual-arm strawberry harvesting robot. I completed my M.S. in Robotics at the University of Minnesota, advised by [Prof. Karthik Desingh](https://karthikdesingh.com/) at the [Robotics Perception and Manipulation Lab](https://rpm-lab.github.io/), where I published first-author work in IEEE RA-L on category-level last-meter navigation.
 
 <div style="display: flex; flex-wrap: wrap; gap: 12px; margin: 1.2rem 0;">
   <a href="/files/CV.pdf" class="btn btn--inverse"><i class="fas fa-download" aria-hidden="true" style="margin-right: 6px;"></i>Download CV</a>
@@ -53,7 +53,7 @@ I completed my undergraduate studies in Mechanical Engineering, which provided a
 </p>
 
 <p>
-In my master’s studies in Robotics, I shifted my focus toward learning-based robotic systems. I initially concentrated on robot perception, particularly vision, through advanced coursework in Robot Vision and Computer Vision, where I implemented projects on <b>visual servoing</b> and <b>monocular visual SLAM</b>. Building on this perception foundation, my current research explores learning-based manipulation and robot positioning. Through these works, I am interested in tightly integrating perception, representation, and action to enable robots to perform complex tasks in real-world environments under limited demonstrations and visual-only observations.
+In my master’s studies in Robotics, I shifted my focus toward learning-based robotic systems. I initially concentrated on robot perception, particularly vision, through advanced coursework in Robot Vision and Computer Vision, where I implemented projects on <b>visual servoing</b> and <b>monocular visual SLAM</b>. Building on this perception foundation, my master’s research explored learning-based manipulation and robot positioning. Through these works, I became interested in tightly integrating perception, representation, and action to enable robots to perform complex tasks in real-world environments under limited demonstrations and visual-only observations.
 </p>
 
   </div>
@@ -61,6 +61,6 @@ In my master’s studies in Robotics, I shifted my focus toward learning-based r
 
 ## Contact Me
 
-I am graduating in August 2026 and am open to **PhD opportunities** and **research roles** in robot learning, manipulation, and real-world robotic systems.
+I am open to **PhD opportunities** and **research roles** in robot learning, manipulation, and real-world robotic systems.
 
 Please feel free to reach out if you are interested in my work or would like to discuss potential research directions. I am always happy to chat about research ideas and collaborations that push the boundaries of robotics!
