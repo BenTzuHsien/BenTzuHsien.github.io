@@ -18,28 +18,24 @@ I am a Robotics Software Engineering Intern at [AgRobotics](https://agrobotics.c
 
 My long-term research goal is to develop **generalizable robot manipulation systems** that perform everyday tasks under severe **data constraints**. I am particularly interested in how unifying **vision, representation, and action** can push manipulation beyond highly structured and stationary settings.
 
-### Research Directions
+## Research Directions
 
-- **Goal-conditioned positioning for manipulation**  
-  Enabling robot manipulation beyond stationary constraints. My work focuses on learning goal-conditioned policies that bring robots into precise, manipulation-ready configurations using visual observations.
+- **Data-Efficient Imitation Learning**  
+  I study how robots can generalize from very few demonstrations by reasoning about correspondence between what they were shown and what they currently see. In my RA-L work, a dense score matrix between goal and current observations let a policy trained on a single object instance generalize across the entire category. I am now interested in extending this concept toward in-context imitation, where a policy maps a reference demonstration onto the current scene to decide the next action, serving as the low-level policy beneath a high-level reasoning model.
 
-- **Data-efficient imitation learning**  
-  I investigate how manipulation policies can be trained with minimal demonstrations while still generalizing robustly to unseen objects and environments. My work focuses on learning visual policies that operate under limited supervision and real-world variability.
+- **Mobile & Manipulation**  
+  For robots to become part of everyday life, knowing how to complete a task is not enough; they also need to move through human spaces and position themselves to carry it out. Most manipulation policies assume a fixed base, while navigation models cannot guarantee the precision that manipulation needs to begin. My RA-L work addresses this gap through last-meter navigation, bringing a robot from the vicinity of an object into a precise, manipulation-ready pose. Next, I am interested in unifying last-meter navigation and manipulation on a humanoid platform as a single mobile manipulation system, while maintaining the performance of the manipulation policy.
 
-### What I Build
+## What I Build
 
-- **Real-world data collection pipelines**  
-  Hardware-integrated systems for capturing synchronized multi-view RGB demonstrations on physical robots (Boston Dynamics Spot).
+- **Real-world data pipelines**  
+  Systems that produce training data for imitation learning and VLA policies, including automated demonstration collection on Boston Dynamics Spot using AprilTag-based localization instead of teleoperation, VLM auto-labeling, and curation of noisy teleoperation data by analyzing robot states and actions to identify grasp events and isolate clean demonstrations.
 
-- **Goal-conditioned learning policies**  
-  Imitation learning systems that map visual observations and task specifications to precise, manipulation-ready positioning actions.
+- **Perception systems on robot hardware**  
+  Vision pipelines built on foundation models such as DINOv2 and SAM2 for policy learning on Spot, and real-time object detection deployed on NVIDIA Jetson Thor within a ROS 2 stack.
 
-- **Perception-to-action integration**  
-  Pipelines that combine modern vision models (e.g., DINOv2) with closed-loop control for robust interaction in unstructured environments.
-
-- **Research infrastructure for robot learning**  
-  Tools and deployment pipelines (e.g., [SpotStack](https://github.com/BenTzuHsien/SpotStack)) that accelerate experimentation and bridge training with real-world deployment.
-  <!-- Simulation-to-real experimentation pipelines (Isaac Sim) and deployment tools (e.g., [SpotStack](https://github.com/BenTzuHsien/SpotStack)) for scalable experimentation on real robots. -->
+- **Robot software infrastructure**  
+  Libraries that make real robots usable for learning research, including SpotStack for perception, data collection, and policy deployment on Spot, and a manipulation toolkit with camera-to-robot calibration and grasp primitives built for a robotics course.
 
 <details>
   <summary style="cursor: pointer; font-size: 0.95em; font-weight: 600;">
